@@ -1,17 +1,4 @@
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,hAperMag3,hAperMag3Err,ksAperMag3,ksAperMag3Err
-#,,,,,,,,,,,
-# Results of Query: Database VHSDR6 20/02/21 04:33,,,,,,,,,,,
-# select #upload.*,#proxtab.distance,ra,dec,jAperMag3,jAperMag3Err, ,,,,,
-# hAperMag3,hAperMag3Err,ksAperMag3,ksAperMag3Err from  #upload left,,,,,,,,
-# outer join #proxtab on #upload.upload_id=upid left outer join ,,,,,,,,,,,
-# vhsSource on vhsSource.sourceID=archiveID   order by ,,,,,,,,,,,
-# #upload.upload_id,,,,,,,,,,,
-# CROSSID radius: 10.0,,,,,,,,,,,
-# CROSSID NEARBY or NEAREST 0 or 1: 0,,,,,,,,,,,
-# CROSSID where: ,,,,,,,,,,,
-# Column Headers at start of file AND below,,,,,,,,,,,
-#,,,,,,,,,,,
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,hAperMag3,hAperMag3Err,ksAperMag3,ksAperMag3Err
+upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,hAperMag3,hAperMag3Err,ksAperMag3,ksAperMag3Err
 1,359.9060865,-8.8376156,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00
 2,0.2950153,-9.5377627,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00
 3,0.0022411,-15.5800395,9.6492825,0.0049568,-15.5794552,-9.999995E+08,-9.999995E+08,-9.999995E+08,-9.999995E+08,-9.999995E+08,-9.999995E+08
