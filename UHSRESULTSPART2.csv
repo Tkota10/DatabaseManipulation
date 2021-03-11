@@ -1,16 +1,4 @@
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err
-#,,,,,,,
-# Results of Query: Database UHSDR1 16/02/21 03:50,,,,,,,
-# select #upload.*,#proxtab.distance,ra,dec,jAperMag3,jAperMag3Err from,,
-#  #upload left outer join #proxtab on #upload.upload_id=upid left ,,,,,,,
-# outer join uhsSource on uhsSource.sourceID=archiveID   order by ,,,,,,,
-# #upload.upload_id,,,,,,,
-# CROSSID radius: 10.0,,,,,,,
-# CROSSID NEARBY or NEAREST 0 or 1: 0,,,,,,,
-# CROSSID where: ,,,,,,,
-# Column Headers at start of file AND below,,,,,,,
-#,,,,,,,
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err
+upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err
 1,161.5715240,23.2457119,3.1558300,161.5722614,23.2462681,14.336910,0.003865
 1,161.5715240,23.2457119,0.3128617,161.5714299,23.2457211,15.992447,0.010017
 2,160.2575083,58.7095666,0E+00,0E+00,0E+00,0E+00,0E+00
