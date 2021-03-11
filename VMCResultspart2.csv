@@ -1,17 +1,4 @@
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,ksAperMag3,ksAperMag3Err,yAperMag3,yAperMag3Err
-#,,,,,,,,,,,
-# Results of Query: Database VMCDR5 20/02/21 04:55,,,,,,,,,,,
-# select #upload.*,#proxtab.distance,ra,dec,jAperMag3,jAperMag3Err, ,,,,,
-# ksAperMag3,ksAperMag3Err,yAperMag3,yAperMag3Err from  #upload left,,,,,,,,
-# outer join #proxtab on #upload.upload_id=upid left outer join ,,,,,,,,,,,
-# vmcSource on vmcSource.sourceID=archiveID   order by ,,,,,,,,,,,
-# #upload.upload_id,,,,,,,,,,,
-# CROSSID radius: 10.0,,,,,,,,,,,
-# CROSSID NEARBY or NEAREST 0 or 1: 0,,,,,,,,,,,
-# CROSSID where: ,,,,,,,,,,,
-# Column Headers at start of file AND below,,,,,,,,,,,
-#,,,,,,,,,,,
-# upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,ksAperMag3,ksAperMag3Err,yAperMag3,yAperMag3Err
+upload_ID,upload_RA,upload_Dec,distance,ra,dec,jAperMag3,jAperMag3Err,ksAperMag3,ksAperMag3Err,yAperMag3,yAperMag3Err
 1,161.5715240,23.2457119,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00
 2,160.2575083,58.7095666,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00
 3,161.6827137,-12.9284650,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00,0E+00
